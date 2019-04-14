@@ -62,13 +62,13 @@ class Owner
       fish.mood = "happy" }
  end
 
-def sell_pets
-    pets.each do |pet, array|
-      array.collect do |pet|
-        pet.mood = "nervous"
-      end
-      array.clear
-    end
+# def sell_pets
+#     pets.each do |pet, array|
+#       array.collect do |pet|
+#         pet.mood = "nervous"
+#       end
+#       array.clear
+#     end
   
 
 end
